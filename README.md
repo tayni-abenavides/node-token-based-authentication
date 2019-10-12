@@ -8,12 +8,12 @@ Node Token-based Authentication REST APIs tutorial with examples - learn how to 
 
 
 ## Authentication REST APIs
-⋅⋅* GET (users list)	  **/api** <br>
-⋅⋅* POST (sign-in)	      **/api/signin** <br>
-⋅⋅* POST (sign-up)	      **/api/register-user** <br>
-⋅⋅* GET (user profile)	  **/api/user-profile/id** <br>
-⋅⋅* PUT (update user)	  **/api/update-user/id** <br>
-⋅⋅* DELETE (delete user)  **/api/delete-user/id** <br>
+* GET (users list)	  **/api**
+* POST (sign-in)	      **/api/signin**
+* POST (sign-up)	      **/api/register-user**
+* GET (user profile)	  **/api/user-profile/id**
+* PUT (update user)	  **/api/update-user/id**
+* DELETE (delete user)  **/api/delete-user/id**
 
 
 ## Start Node Server
