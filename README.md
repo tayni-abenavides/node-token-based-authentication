@@ -8,25 +8,18 @@ Node Token-based Authentication REST APIs tutorial with examples - learn how to 
 
 
 ## Authentication REST APIs
-⋅⋅* GET (users list)	  **/api**
-⋅⋅* POST (sign-in)	      **/api/signin**
-⋅⋅* POST (sign-up)	      **/api/register-user**
-⋅⋅* GET (user profile)	  **/api/user-profile/id**
-⋅⋅* PUT (update user)	  **/api/update-user/id**
-⋅⋅* DELETE (delete user)  **/api/delete-user/id**
+⋅⋅* GET (users list)	  **/api** <br>
+⋅⋅* POST (sign-in)	      **/api/signin** <br>
+⋅⋅* POST (sign-up)	      **/api/register-user** <br>
+⋅⋅* GET (user profile)	  **/api/user-profile/id** <br>
+⋅⋅* PUT (update user)	  **/api/update-user/id** <br>
+⋅⋅* DELETE (delete user)  **/api/delete-user/id** <br>
 
 
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:4000/api](http://localhost:4000/api) to view it on the browser.
-
-
-### Start Node Server
+## Start Node Server
 
 - Run `npm install` to install required packages 
 - Open terminal run `nodemon`
 - Open other terminal run `mongod`
 
-Open API URL on [http://localhost:4000/api](http://localhost:4000/api)# react-multiple-files-upload
-
+Open API URL on [http://localhost:4000/api](http://localhost:4000/api)
