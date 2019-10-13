@@ -92,7 +92,7 @@ router.post("/signin", (req, res, next) => {
 });
 
 // Get Users
-router.route('/').get(authorize, (req, res) => {
+router.route('/').get((req, res) => {
     userSchema.find((error, response) => {
         if (error) {
             return next(error)
@@ -103,7 +103,7 @@ router.route('/').get(authorize, (req, res) => {
 })
 
 // Get Single User
-router.route('/user-profile/:id').get((req, res, next) => {
+router.route('/user-profile/:id').get(authorize, (req, res, next) => {
     userSchema.findById(req.params.id, (error, data) => {
         if (error) {
             return next(error);
