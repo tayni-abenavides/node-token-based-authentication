@@ -8,7 +8,6 @@ const userSchema = require("../models/User");
 const authorize = require("../middlewares/auth");
 const { check, validationResult } = require('express-validator');
 
-
 // Sign-up
 router.post("/register-user",
     [
@@ -82,7 +81,7 @@ router.post("/signin", (req, res, next) => {
         res.status(200).json({
             token: jwtToken,
             expiresIn: 3600,
-            msg: getUser
+            _id: getUser._id
         });
     }).catch(err => {
         return res.status(401).json({
